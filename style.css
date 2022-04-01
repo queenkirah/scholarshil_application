@@ -1,0 +1,75 @@
+header{color: burlywood; text-align: center;}
+header h1{font-size: 50px;}
+header p{font-size: 24px; color: gray;}
+/*.header{width: 100%;} */
+    
+
+.student{background: gray; color: white; padding: 2px; border:  solid burlywood; margin-bottom: 10px;}
+
+.scholarship-app{height: max-content; width: 100%; background-color: gainsboro; margin: auto;}
+
+.studentinfo{margin-left: 20px;}
+
+.studentinfo select{width: 42%; padding: 10px; border: 2px solid black; border-radius: 9px; background-color: bisque;}
+
+.studentinfo input{width: 40%; padding: 10px; border-radius: 7px; background-color: bisque;}
+
+.country{margin-left: 20px;}
+
+.country select{width: 42%; padding: 10px; border: 2px solid black; border-radius: 7px; background-color: bisque;}
+
+.subject{margin-left: 20px;}
+
+.subject select{width: 30%; padding: 9px; border: 1.9px solid black; border-radius: 5px; background-color: bisque;}
+
+.subject input{width: 30%; padding: 10px; border-radius: 5px; background-color: bisque; margin-left: 10px;}
+
+
+
+button {padding: 5px 20px; outline: none; cursor: pointer; border: none; border-radius: 12px; display: inline-block; padding: 14px 30px;
+    background-color:brown; color: white; margin-left: 20px;}
+
+
+
+
+
+/* CSS FOR MOBILE VERSION */
+
+@media (max-width:1050px) {
+    header {width: 100%;}
+    header h1{font-size: 42px;}
+    header img{width: 100%;}
+    header p{font-size: 15px;}
+
+    .studentinfo select{width: 57%; padding: 20px;} 
+    .studentinfo input{width: 52.5%; padding: 20px;}
+
+    .country select{width: 57.5%; padding: 20px;}
+
+    .subject select{width: 41%; padding: 12px;}
+    .subject input{width: 40%; padding: 12px;}
+
+
+    
+} 
+
+
+
+@media (max-width:800px) {
+    header h1{font-size: 35px;}
+    header p{font-size: 13px;}
+
+    .studentinfo input{width: 59.5%;}
+    .studentinfo select{width: 65.5%;}
+
+    .country select{width: 65.5%;}
+
+    .subject select{width: 45%;}
+
+
+    
+}
+
+@media (max-width:425) {
+
+}

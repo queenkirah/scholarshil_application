@@ -1,0 +1,242 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Application</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1> WELCOME TO UNIVERSITY OF BRISTOL</h1>
+        <img src="./image/image7.PNG"/>
+        <p>University of Bristol scholarship is a global scholarship programme that offers future leaders the unique opportunuty to study in the UK.<br> These scholarship are awarded to outstanding professionals from all over the world,<br> to pursuea one year masters degree in any subject at the university.</p>
+    </header>
+       
+    <div class="student">
+        <h2>SCHOLARSHIP  APPLICATION FORM</h2>
+        <h2>student Information</h2> 
+    </div>
+
+    <div class="scholarship-app">
+
+        <div class="form-app">
+            <form>
+                <div class="studentinfo">
+                    
+                    <label for="firstName">First Name</label><br>
+                    <input type="text" name="firstName" id="firstName" /><br>
+                    <p id="error"></p>
+                     
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" name="lastName" id="lastName" /><br>
+                    <p id="error1"></p>
+            
+                    
+                    <label for="age">Age</label><br>
+                    <select id="age">
+                        <option value="">Select Your Age Range</option>
+                        <option value="0">18 - 24 Years</option>
+                        <option value="1">25 - 30 Years</option>
+                        <option value="2">31 - 35 Years</option>
+                        <option value="3">36 - 40 Years</option>
+                        <option value="4">41 Years and Above</option>
+                    </select>
+                    <p id="error3"></p>
+                        
+                    <div class="gender">
+                        <label for="gender">Gender</label><br>
+                        <select name="gender" id="gender">
+                            <option value="">....</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+
+                        </select>
+                        <p id="error4"></p>
+                    </div>
+                    
+                    <label for="phoneNumber">Phone Number</label><br>
+                    <input type="number" name="phoneNumber" id="phoneNumber" /><br>
+                    <p id="error5"></p>
+                    
+                    <label for="school">School</label><br>
+                    <input type="text" name="school" id="school" />
+                    <p id="error6"></p>
+                </div>
+                    
+                    <div class="country">  
+                    
+                    <label for="country">select country</label><br>
+                    <select name="Country" id="country">
+                        <optgroup label="North America">
+                            <option value="">... </option>
+                            <option value="northamerica">United States</option>
+                            <option value="northamerica">Canada</option>
+                            <option value="northamerica">Mexico</option>
+                            <option value="northamerica">Anguilla</option>
+                            <option value="northamerica">Aruba</option>
+                        </optgroup>
+                        
+                        <optgroup label="Africa">
+                            <option value="africa">Algeria</option>
+                            <option value="africa">Angola</option>
+                            <option value="africa">Benin</option>
+                            <option value="africa">Burkina Faso</option>
+                            <option value="africa">Cameroon</option>
+                        </optgroup>
+                    
+                        <optgroup label="Asia">asia
+                            <option value="asia">Georgia</option>
+                            <option value="asia">Isreal</option>
+                            <option value="asia">Japan</option>
+                            <option value="asia">Hong Kong</option>
+                            <option value="asia">Irang</option>
+                        </optgroup>
+
+                        <optgroup label="South America">
+                            <option value="southamerica">Argentina</option>
+                            <option value="southamerica">Uruguay</option>
+                            <option value="southamerica">Paraguay</option>
+                            <option value="southamerica">Peru</option>
+                            <option value="southamerica ">Colombia</option>
+                        </optgroup>
+                        
+                        <optgroup label="Other Country">
+                            <option value="othercountry">Antartica</option>
+                            <option value="othercountry">Australia</option>
+                        </optgroup>
+                        
+                    </select>
+                    <p id="error7"></p>
+                    </div>
+
+                    <div class="subject">
+
+                   <div>
+                       <select name="subject" id="subject1">
+                           <option value="English">English</option>
+                       </select>
+                       <input type="number" name="english" id="course1" placeholder="Input your score" />
+                       <p id="error8"></p>
+                   </div>
+                   <div>
+                        <select name="subject" id="subject2">
+                            <option value="Maths">Mathematics</option>
+                        </select>
+                        <input type="number" name="Maths" id="course2" placeholder="Input your score" />
+                        <p id="error9"></p>
+                    </div>
+                <div>
+                <select name="subject" id="subject3">
+                    <option value="" disabled selected = 'selected'>Select Subject</option>
+                    <option value="geography">Geography</option>
+                    <option value="agriculture">Agriculture</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="physics">Physics</option>
+                    <option value="biology">Biology</option>
+                    <option value="commerce">Commerce</option>
+                </select>
+                    <input type="number" name="other" id="course3" placeholder="Input your score" />
+                    <p id="error10"></p>
+                </div>
+            <div>
+                <select name="subject" id="subject4">
+                    <option value="" disabled selected = 'selected'>Select Subject</option>
+                    <option value="geography">Geography</option>
+                    <option value="agriculture">Agriculture</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="physics">Physics</option>
+                    <option value="biology">Biology</option>
+                    <option value="commerce">Commerce</option>
+                </select>
+                <input type="number" name="other" id="course4" placeholder="Input your score" />
+                <p id="error11"></p>
+            </div>
+            <div>
+                <select name="subject" id="subject5">
+                    <option value="" disabled selected = 'selected'>Select Subject</option>
+                    <option value="geography">Geography</option>
+                    <option value="agriculture">Agriculture</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="physics">Physics</option>
+                    <option value="biology">Biology</option>
+                    <option value="commerce">Commerce</option>
+                </select>
+                <input type="number" name="other" id="course5" placeholder="Input your score" />
+                <p id="error12"></p>
+            </div>
+            <div>
+                <select name="subject" id="subject6">
+                    <option value="" disabled selected = 'selected'>Select Subject</option>
+                    <option value="geography">Geography</option>
+                    <option value="agriculture">Agriculture</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="physics">Physics</option>
+                    <option value="biology">Biology</option>
+                    <option value="commerce">Commerce</option>
+                </select>
+                <input type="number" name="other" id="course6" placeholder="Input your score" />
+                <p id="error13"></p>
+            </div>
+            <div>
+                <select name="subject" id="subject7">
+                    <option value="" disabled selected = 'selected'>Select Subject</option>
+                    <option value="geography">Geography</option>
+                    <option value="agriculture">Agriculture</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="physics">Physics</option>
+                    <option value="biology">Biology</option>
+                    <option value="commerce">Commerce</option>
+                </select>
+                <input type="number" name="other" id="course7" placeholder="Input your score" />
+                <p id="error14"></p>
+            </div>
+            <div>
+                <select name="subject" id="subject8">
+                    <option value="" disabled selected = 'selected'>Select Subject</option>
+                    <option value="geography">Geography</option>
+                    <option value="agriculture">Agriculture</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="physics">Physics</option>
+                    <option value="biology">Biology</option>
+                    <option value="commerce">Commerce</option>
+                </select>
+                <input type="number" name="other" id="course8" placeholder="Input your score" />
+                <p id="error15"></p>
+            </div>
+           
+            </div>
+                    
+
+
+
+            <div class="form-group-btn">
+                <button type="button" id="submitBtn">Submit</button>
+                <button type="button" id="showResults">Show Results</button>
+            </div>
+                 
+            </form>
+
+         
+        </div>
+      
+    </div>
+
+    <div class="feed">
+        <h1>Feedback : </h1>
+        <h3 id="result"></h3>
+    </div> 
+
+    <div>
+        <canvas id="myChart" class="chart"></canvas>
+      </div>
+      
+    
+
+    <script src="chart.min.js  "></script>
+    <script src="scholarship.js"></script>
+   
+</body>
+</html>
